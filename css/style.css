@@ -20,3 +20,8 @@
  padding: 1%;
  width: 96%;
 }
+
+.hero-unit{
+ padding: 2em !important;
+ margin-top: 1em;
+}
