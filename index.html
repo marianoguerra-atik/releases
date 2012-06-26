@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	 <meta charset="UTF-8" />
+  <title>releases!</title>
+
+	 <link rel="stylesheet" href="http://css.cdn.tl/normalize.css">
+	 <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="http://current.bootstrapcdn.com/bootstrap-v204/css/bootstrap-combined.min.css">
+
+  <script data-main="js/app" src="http://requirejs.org/docs/release/2.0.2/minified/require.js"></script>
+ </head>
+
+ <body>
+  <div class="container">
+   <h1>releases!</h1>
+
+   <p class="app-description"><em>releases</em> is a site were you can get the
+   latest library releases by an atom feed or by looking at this page</p>
+
+   <div class="filter-cont">
+    <label for="filter">filter</label>
+    <input type="search" name="filter" id="filter"/>
+   </div>
+   <table id="releases" class="table table-bordered">
+    <thead>
+     <tr>
+      <th>repo</th>
+      <th>org</th>
+      <th>name</th>
+      <th>ver</th>
+     </tr>
+    </thead>
+    <tbody>
+    </tbody>
+   </table>
+
+  <div id="pkg-details"></div>
+
+  </div>
+ </body>
+</html>

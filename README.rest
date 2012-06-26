@@ -1,0 +1,31 @@
+releases - library updates in one place
+=======================================
+
+releases is a set of scripts that watch for library releases and inform you
+through an atom feed you can subscribe to and also provides a user friendly
+web frontend to navigate release and lib information.
+
+how?
+----
+
+python 3 scripts that look for project's package.json in the projects.list
+file and if updated generate a new event that generates a new entry in the
+feed.
+
+ran once a day from a cron job, and update the results to the repository.
+
+why?
+----
+
+because I'm tired of hunting package updates all over the internet.
+
+why python 3?
+-------------
+
+because we should be using python 3 by now.
+
+license
+-------
+
+MIT + optional beer for the creator.
+

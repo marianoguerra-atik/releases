@@ -1,0 +1,22 @@
+.filter-cont{
+ width: 50%;
+ float: right;
+}
+
+.filter-cont label{
+ float: left;
+ width: 40%;
+}
+
+.filter-cont input{
+ float: right;
+ width: 50%;
+}
+
+.package{
+ border: 1px solid #ddd;
+ background-color: #f5f5f5;
+ margin: 1%;
+ padding: 1%;
+ width: 96%;
+}

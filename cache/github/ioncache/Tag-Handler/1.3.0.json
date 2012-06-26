@@ -1,0 +1,42 @@
+{
+  "name": "Tag-Handler", 
+  "repositories": [
+    {
+      "url": "git@github.com:ioncache/Tag-Handler.git", 
+      "type": "git"
+    }
+  ], 
+  "bugs": {
+    "web": "https://github.com/ioncache/Tag-Handler/issues?sort=created&direction=desc&state=open"
+  }, 
+  "demos": [
+    "http://ioncache.github.com/Tag-Handler/#examples"
+  ], 
+  "maintainers": [
+    {
+      "web": "http://github.com/ioncache", 
+      "name": "Mark Jubenville", 
+      "email": "ioncache@gmail.com"
+    }
+  ], 
+  "version": "1.3.0", 
+  "dependencies": {
+    "jQuery": "1.4.4+"
+  }, 
+  "keywords": [
+    "Tag", 
+    "jQuery", 
+    "Plugin", 
+    "Autocomplete", 
+    "Tags", 
+    "AJAX"
+  ], 
+  "licenses": [
+    {
+      "url": "http://www.gnu.org/licenses/lgpl.html", 
+      "name": "LGPL"
+    }
+  ], 
+  "homepage": "http://ioncache.github.com/Tag-Handler/", 
+  "description": "Tag Handler is a jQuery plugin used for managing tag-type metadata. "
+}
