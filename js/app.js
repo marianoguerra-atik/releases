@@ -35,7 +35,7 @@ require(["jquery", "json", "underscore", "str", "mustache", "text!../tpl/package
     var table;
 
     function loadLatestReleases() {
-        return $.ajax("/cache/releases");
+        return $.ajax("cache/releases");
     }
 
     function loadDetails(path) {
