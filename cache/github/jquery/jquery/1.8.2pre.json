@@ -1,0 +1,32 @@
+{
+  "description": "JavaScript library for DOM operations", 
+  "repository": {
+    "url": "https://github.com/jquery/jquery.git", 
+    "type": "git"
+  }, 
+  "author": {
+    "url": "https://github.com/jquery/jquery/blob/master/AUTHORS.txt", 
+    "name": "jQuery Foundation and other contributors"
+  }, 
+  "title": "jQuery", 
+  "bugs": {
+    "url": "http://bugs.jquery.com"
+  }, 
+  "keywords": [], 
+  "version": "1.8.2pre", 
+  "dependencies": {}, 
+  "licenses": [
+    {
+      "url": "https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt", 
+      "type": "MIT"
+    }
+  ], 
+  "devDependencies": {
+    "testswarm": "0.2.2", 
+    "grunt": "~0.3.9", 
+    "grunt-compare-size": ">=0.1.0", 
+    "grunt-git-authors": ">=1.0.0"
+  }, 
+  "homepage": "http://jquery.com", 
+  "name": "jquery"
+}
