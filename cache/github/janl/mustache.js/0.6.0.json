@@ -1,0 +1,22 @@
+{
+  "name": "mustache", 
+  "author": "mustache.js Authors <http://github.com/janl/mustache.js>", 
+  "volo": {
+    "url": "https://raw.github.com/janl/mustache.js/0.6.0/mustache.js"
+  }, 
+  "version": "0.6.0", 
+  "scripts": {
+    "test": "vows --spec"
+  }, 
+  "keywords": [
+    "mustache", 
+    "template", 
+    "templates", 
+    "ejs"
+  ], 
+  "devDependencies": {
+    "vows": "0.6.x"
+  }, 
+  "main": "./mustache.js", 
+  "description": "Logic-less {{mustache}} templates with JavaScript"
+}
