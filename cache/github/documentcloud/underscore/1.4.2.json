@@ -1,0 +1,19 @@
+{
+  "name": "underscore", 
+  "repository": {
+    "url": "git://github.com/documentcloud/underscore.git", 
+    "type": "git"
+  }, 
+  "author": "Jeremy Ashkenas <jeremy@documentcloud.org>", 
+  "version": "1.4.2", 
+  "keywords": [
+    "util", 
+    "functional", 
+    "server", 
+    "client", 
+    "browser"
+  ], 
+  "main": "underscore.js", 
+  "homepage": "http://underscorejs.org", 
+  "description": "JavaScript's functional programming helper library."
+}
