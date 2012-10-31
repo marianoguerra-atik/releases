@@ -1,0 +1,36 @@
+{
+  "name": "showdown", 
+  "repository": {
+    "url": "https://github.com/coreyti/showdown.git", 
+    "web": "https://github.com/coreyti/showdown", 
+    "type": "git"
+  }, 
+  "author": "John Fraser", 
+  "version": "0.3.0", 
+  "contributors": [
+    "John Gruber", 
+    "John Fraser", 
+    "Corey Innis", 
+    "Remy Sharp", 
+    "Konstantin K\u00e4fer", 
+    "Roger Braun", 
+    "Dominic Tarr", 
+    "Cat Chen", 
+    "Titus Stone", 
+    "Rob Sutherland", 
+    "Pavel Lang", 
+    "Ben Combee", 
+    "Adam Backstrom"
+  ], 
+  "licenses": [
+    {
+      "url": "https://github.com/coreyti/showdown/raw/master/license.txt", 
+      "type": "BSD"
+    }
+  ], 
+  "devDependencies": {
+    "should": "*", 
+    "mocha": "*"
+  }, 
+  "main": "./src/showdown"
+}
