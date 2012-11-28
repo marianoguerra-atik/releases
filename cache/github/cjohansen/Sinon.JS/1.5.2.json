@@ -1,0 +1,38 @@
+{
+  "engines": {
+    "node": ">=0.1.103"
+  }, 
+  "name": "sinon", 
+  "repository": {
+    "url": "http://github.com/cjohansen/Sinon.JS.git", 
+    "type": "git"
+  }, 
+  "author": "Christian Johansen", 
+  "bugs": {
+    "url": "http://github.com/cjohansen/Sinon.JS/issues", 
+    "mail": "christian@cjohansen.no"
+  }, 
+  "version": "1.5.2", 
+  "dependencies": {
+    "buster-format": "~0.5"
+  }, 
+  "scripts": {
+    "test": "node test/node/run.js"
+  }, 
+  "licenses": [
+    {
+      "url": "http://github.com/cjohansen/Sinon.JS/blob/master/LICENSE", 
+      "type": "BSD"
+    }
+  ], 
+  "devDependencies": {
+    "buster-evented-logger": "~0.4", 
+    "buster-core": ">=0.6.4", 
+    "buster-test": "~0.5", 
+    "buster-assertions": "~0.10", 
+    "http-server": "*"
+  }, 
+  "main": "./lib/sinon.js", 
+  "homepage": "http://cjohansen.no/sinon/", 
+  "description": "JavaScript test spies, stubs and mocks."
+}
