@@ -1,0 +1,26 @@
+{
+  "name": "backbone", 
+  "author": "Jeremy Ashkenas <jeremy@documentcloud.org>", 
+  "url": "http://backbonejs.org", 
+  "dependencies": {
+    "underscore": ">=1.3.3"
+  }, 
+  "version": "0.9.9-pre", 
+  "scripts": {
+    "test": "phantomjs test/vendor/runner.js test/index.html"
+  }, 
+  "keywords": [
+    "model", 
+    "view", 
+    "controller", 
+    "router", 
+    "server", 
+    "client", 
+    "browser"
+  ], 
+  "devDependencies": {
+    "phantomjs": "0.2.2"
+  }, 
+  "main": "backbone.js", 
+  "description": "Give your JS App some Backbone with Models, Views, Collections, and Events."
+}
