@@ -1,0 +1,66 @@
+{
+  "description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.", 
+  "repository": {
+    "url": "git://github.com/jquery/jquery-ui.git", 
+    "type": "git"
+  }, 
+  "author": {
+    "url": "https://github.com/jquery/jquery-ui/blob/master/AUTHORS.txt", 
+    "name": "jQuery Foundation and other contributors"
+  }, 
+  "title": "jQuery UI", 
+  "bugs": "http://bugs.jqueryui.com/", 
+  "keywords": [], 
+  "maintainers": [
+    {
+      "url": "http://scottgonzalez.com", 
+      "name": "Scott Gonz\u00e1lez", 
+      "email": "scott.gonzalez@gmail.com"
+    }, 
+    {
+      "url": "http://bassistance.de", 
+      "name": "J\u00f6rn Zaefferer", 
+      "email": "joern.zaefferer@gmail.com"
+    }, 
+    {
+      "url": "http://krisborchers.com", 
+      "name": "Kris Borchers", 
+      "email": "kris.borchers@gmail.com"
+    }, 
+    {
+      "url": "http://gnarf.net", 
+      "name": "Corey Frang", 
+      "email": "gnarf37@gmail.com"
+    }, 
+    {
+      "url": "http://mike.sherov.com", 
+      "name": "Mike Sherov", 
+      "email": "mike.sherov@gmail.com"
+    }, 
+    {
+      "url": "http://tjvantoll.com", 
+      "name": "TJ VanToll", 
+      "email": "tj.vantoll@gmail.com"
+    }
+  ], 
+  "version": "1.10.1pre", 
+  "dependencies": {}, 
+  "licenses": [
+    {
+      "url": "https://github.com/jquery/jquery-ui/blob/master/MIT-LICENSE.txt", 
+      "type": "MIT"
+    }
+  ], 
+  "devDependencies": {
+    "grunt-compare-size": "0.1.4", 
+    "grunt-junit": "0.1.5", 
+    "testswarm": "0.3.0", 
+    "rimraf": "2.0.1", 
+    "grunt-git-authors": "1.0.0", 
+    "grunt-css": "0.2.0", 
+    "grunt-html": "0.1.1", 
+    "grunt": "~0.3.17"
+  }, 
+  "homepage": "http://jqueryui.com", 
+  "name": "jquery-ui"
+}
