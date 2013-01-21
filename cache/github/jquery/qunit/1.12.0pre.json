@@ -1,0 +1,37 @@
+{
+  "license": {
+    "url": "http://www.opensource.org/licenses/mit-license.php", 
+    "name": "MIT"
+  }, 
+  "description": "An easy-to-use JavaScript Unit Testing framework.", 
+  "contributors": [
+    "John Resig <jeresig@gmail.com> (http://ejohn.org/)", 
+    "J\u00f6rn Zaefferer <joern.zaefferer@gmail.com> (http://bassistance.de/)"
+  ], 
+  "author": {
+    "url": "https://github.com/jquery/qunit/blob/master/AUTHORS.txt", 
+    "name": "jQuery Foundation and other contributors"
+  }, 
+  "title": "QUnit", 
+  "bugs": {
+    "url": "https://github.com/jquery/qunit/issues"
+  }, 
+  "repository": {
+    "url": "git://github.com/jquery/qunit.git", 
+    "type": "git"
+  }, 
+  "version": "1.12.0pre", 
+  "keywords": [
+    "testing", 
+    "unit", 
+    "jquery"
+  ], 
+  "devDependencies": {
+    "testswarm": "1.0.0-alpha", 
+    "grunt": "0.3.x", 
+    "grunt-git-authors": "1.0.0"
+  }, 
+  "main": "qunit/qunit.js", 
+  "homepage": "http://qunitjs.com", 
+  "name": "qunitjs"
+}
