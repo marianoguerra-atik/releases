@@ -1,0 +1,53 @@
+{
+  "jam": {
+    "include": [
+      "one-color.js", 
+      "one-color-all.js", 
+      "one-color-ieshim.js", 
+      "README.md", 
+      "LICENSE"
+    ], 
+    "main": "one-color-all.js"
+  }, 
+  "engines": {
+    "node": ">=0.4.8"
+  }, 
+  "name": "onecolor", 
+  "repository": "git@github.com:One-com/one-color.git", 
+  "ender": "lib/ender.js", 
+  "directories": {
+    "lib": "./lib"
+  }, 
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  }, 
+  "maintainers": [
+    {
+      "name": "Peter M\u00fcller", 
+      "email": "munter@fumle.dk"
+    }, 
+    {
+      "name": "Andreas Lind Petersen", 
+      "email": "andreas@one.com"
+    }
+  ], 
+  "version": "2.3.4", 
+  "scripts": {
+    "postpublish": "jam publish"
+  }, 
+  "keywords": [
+    "ender", 
+    "color", 
+    "colour", 
+    "requirejs", 
+    "amd"
+  ], 
+  "devDependencies": {
+    "vows": "=0.6.1", 
+    "assetgraph-builder": "=1.0.3", 
+    "assetgraph": "=1.0.1", 
+    "optimist": "=0.3.1"
+  }, 
+  "main": "one-color-all-debug.js", 
+  "description": "Javascript color object with implicit color space conversions. Supports RGB, HSV, HSL and CMYK with alpha channel."
+}
